@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Blogs | Brain Star Technologies </title> 
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://use.fontawesome.com/a2a82897ec.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A==" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover.css" integrity="sha512-O0OajC2ZbewIBOO1RxRSm/kvJ0hn19ACNJXfBH0HflppYK9QCq9v/wfNdcKNs/Dh8IXFXc1URFame5IJVxLrWA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        $(document).ready(function(){
+          $(function(){
+          AOS.init(); // initialize aos library
+        });
+      })
+     
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(function() {
+      var owl = $(".owl-carousel");
+      owl.owlCarousel({
+        items: 2,
+        margin: 10,
+        loop: false,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          768: {
+            items: 2
+          }
+        }
+      });
+    });
+  })
+</script>
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const listItemElements = document.querySelectorAll(".tab-link");
+      const tabContentElements = document.querySelectorAll(".tab-content");
+
+      // Show the first tab content by default
+      tabContentElements[0].classList.add("current");
+
+      listItemElements.forEach((listItem, index) => {
+        listItem.addEventListener("mouseenter", () => {
+          showTabContent(index);
+        });
+      });
+
+      function showTabContent(index) {
+        // Hide all tab content
+        tabContentElements.forEach(content => {
+          content.classList.remove("current");
+        });
+
+        // Show the corresponding tab content
+        tabContentElements[index].classList.add("current");
+      }
+    });
+  </script>
+  <style>
+
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="announcement-bar">
+    <div class="announcement-text">
+      <a href="index.html#seo-form">Free SEO Check</a>
+    </div>
+    <div class="social-icons">
+      <a class="btn1 m-1 hvr-grow slide" href="https://www.facebook.com/brainstartech"><i class="fa fa-facebook-f"></i></a>
+                    
+      <a class="btn1 m-1 hvr-grow slide" href="https://twitter.com/BrainStarTech"><i class="fa fa-twitter"></i></a>
+                    
+      <a class="btn1 m-1 hvr-grow slide" href="https://www.instagram.com/brainstartechnologies"><i class="fa fa-instagram"></i></a>
+                    
+      <a class="btn1 m-1 hvr-grow slide" href="https://www.linkedin.com/company/brain-star-technologies"><i class="fa fa-linkedin"></i></a>
+      
+      <a class="btn1 m-1 hvr-grow slide" href="https://wa.me/+917986324471"><i class="fa fa-whatsapp"></i></a>
+     
+    </div>
+</div>
+
+
+
+  <nav class="cd-nav-container" id="cd-nav">
+    <header>
+      <a href="#0" class="close-toggle hvr-grow">Close</a>
+    </header>
+    <ul class="cd-nav">
+      <li><a class="hvr-grow" href="index.html">Home</a></li>
+      <li>
+        <a role="button" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1" class="hvr-grow collapsed">Hire Us <i class="fa fa-caret-down" aria-hidden="true"></i></a>            
+        <div class="collapse" id="collapseExample1" aria-expanded="false" style="height: 0px;">
+          <div class="well mobile-submenu">
+                    
+            <div class="menus-grid services-menu">
+              <span class="icon-webdesign menu-icons"></span>
+              <ul>
+                <li>
+                  <a href="outsourcing-web-app-development.html#hire" class="hvr-forward">
+                    <img src="images/web.png" height="20px">
+                    Website Developer
+                    </a>
+                  </li>
+                <li>
+                  <a href="web-design-outsourcing.html#hire" class="hvr-forward">
+                    <img src="images/ui-ux.png" height="20px">
+                  UI/UX Designer
+                  </a>
+                </li>
+                <li>
+                  <a href="mobile-app-development.html#hire" class="hvr-forward">
+                    <img src="images/mobile.svg" height="20px">
+                    Mobile App Developer
+                  </a>
+                </li>
+                <li>
+                  <a href="emerging-technologies.html#hire" class="hvr-forward">
+                    <img src="images/emerging.png" height="20px">
+                    Emerging Technologies
+                  </a>
+                </li>
+                <li>
+                  <a href="digital-marketing.html#hire" class="hvr-forward">
+                    <img src="images/digital.png" height="20px">
+                    Digital Marketing
+                  </a>
+                </li>
+                <li>
+                  <a href="internet-of-things.html#hire" class="hvr-forward">
+                    <img src="images/IOT1.png" height="20px">
+                    Internet of Things
+                  </a>
+                </li>
+                <li>
+                  <a href="cross-platform-app-development.html#hire" class="hvr-forward">
+                    <img src="images/cross-app.png" height="20px">
+                    Cross-Platform App Developer
+                  </a>
+                </li>
+                <li>
+                  <a href="managed-services.html#hire" class="hvr-forward">
+                    <img src="images/managed-services.png" height="20px">
+                    Managed Services
+                </a>
+              </li>
+                <li>
+                  <a href="blockchain.html#hire" class="hvr-forward">
+                    <img src="images/blockchain.png" height="20px">
+                    Blockchain Developer
+                </a>
+              </li>
+                <li>
+                  <a href="nft.html#hire" class="hvr-forward">
+                    <img src="images/nft.png" height="20px">
+                    NFT Developer
+                </a>
+              </li>
+              </ul>
+            </div>       
+          </div>
+                
+        </div>
+          
+      </li>
+      <li><a class="hvr-grow active" href="about-us.html">About Us</a></li>
+      <li>
+        <a role="button" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1" class="hvr-grow collapsed">Services <i class="fa fa-caret-down" aria-hidden="true"></i></a>            
+        <div class="collapse" id="collapseExample1" aria-expanded="false" style="height: 0px;">
+          <div class="well mobile-submenu">
+                    
+            <div class="menus-grid services-menu">
+              <span class="icon-webdesign menu-icons"></span>
+              <ul>
+                <li>
+                  <a href="outsourcing-web-app-development.html" class="hvr-forward">
+                    <img src="images/web.png" height="20px">
+                    Website Development
+                    </a>
+                  </li>
+                <li>
+                  <a href="web-design-outsourcing.html" class="hvr-forward">
+                    <img src="images/ui-ux.png" height="20px">
+                  UI/UX Design
+                  </a>
+                </li>
+                <li>
+                  <a href="mobile-app-development.html" class="hvr-forward">
+                    <img src="images/mobile.svg" height="20px">
+                    Mobile App Development
+                  </a>
+                </li>
+                <li>
+                  <a href="emerging-technologies.html" class="hvr-forward">
+                    <img src="images/emerging.png" height="20px">
+                    Emerging Technologies
+                  </a>
+                </li>
+                <li>
+                  <a href="digital-marketing.html" class="hvr-forward">
+                    <img src="images/digital.png" height="20px">
+                    Digital Marketing
+                  </a>
+                </li>
+                <li>
+                  <a href="internet-of-things.html" class="hvr-forward">
+                    <img src="images/IOT1.png" height="20px">
+                    Internet of Things
+                  </a>
+                </li>
+                <li>
+                  <a href="cross-platform-app-development.html" class="hvr-forward">
+                    <img src="images/cross-app.png" height="20px">
+                    Cross-Platform App Development
+                  </a>
+                </li>
+                <li>
+                  <a href="managed-services.html" class="hvr-forward">
+                    <img src="images/managed-services.png" height="20px">
+                    Managed Services
+                </a>
+              </li>
+                <li>
+                  <a href="blockchain.html" class="hvr-forward">
+                    <img src="images/blockchain.png" height="20px">
+                    Blockchain
+                </a>
+              </li>
+                <li>
+                  <a href="nft.html" class="hvr-forward">
+                    <img src="images/nft.png" height="20px">
+                    NFT
+                </a>
+              </li>
+              </ul>
+            </div>       
+          </div>
+                
+        </div>
+          
+      </li>
+      <li><a class="hvr-grow" href="technologies.html">Technologies</a></li>
+      <li><a href="portfolio.html" class="hvr-grow">Portfolio</a></li>
+      <li><a class="hvr-grow" href="industries.html">Industries</a></li>
+      <li><a class="hvr-grow" href="career.html">Careers</a></li>
+      <li><a class="hvr-grow" href="blog-page.html">Blog</a></li>
+      <li><a class="hvr-grow" href="contact-us.html">Contact Us</a></li>
+      
+    </ul>
+    
+  </nav>
+  
+  
+  
+  <nav class="container-fluid">
+    <div class="brand-logo"><a href="index.html" class="hvr-grow"><img src="images/brain-star-logo-removebg.png" height="90px" width="235px"></a></div>
+    <div class="navbar-right">
+        <ul class="nav-list">     
+          <li><a class="hvr-grow" href="index.html">Home</a></li>
+  
+          <li class="dropdown">
+              <a class="hvr-grow dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hire Us <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+              <div class="dropdown-menu mega-menu">
+                      <div class="row">
+                              
+                                  <div class="menus-grid services-menu">
+                                      <span class="icon-webdesign menu-icons"></span>
+                                      <ul>
+                                        <li class="menu-first"><a href="outsourcing-web-app-development.html#hire" class="hvr-forward"><img src="images/web.png" height="20px">&nbsp;Hire Website Developer</a></li>
+                                        <li class="menu-first"><a href="web-design-outsourcing.html#hire" class="hvr-forward"><img src="images/ui-ux.png" height="20px">&nbsp;Hire UI/UX Designer</a></li>
+                                        <li class="menu-first"><a href="mobile-app-development.html#hire" class="hvr-forward"><img src="images/mobile.svg" height="20px">&nbsp;Hire Mobile App Developer</a></li>
+                                        <li class="menu-first"><a href="emerging-technologies.html#hire" class="hvr-forward"><img src="images/emerging.png" height="20px">&nbsp;Hire Emerging Technologies Specialists</a></li>
+                                        <li class="menu-first"><a href="digital-marketing.html#hire" class="hvr-forward"><img src="images/digital.png" height="20px">&nbsp;Hire Digital Marketing Experts</a></li>
+                                        <li class="menu-first"><a href="internet-of-things.html#hire" class="hvr-forward"><img src="images/IOT1.png" height="20px">&nbsp;Hire Internet of Things Specialists</a></li>
+                                        <li class="menu-first"><a href="cross-platform-app-development.html#hire" class="hvr-forward"><img src="images/cross-app.png" height="20px">&nbsp;Hire Cross-Platform App Developer</a></li>
+                                        <li class="menu-first"><a href="managed-services.html#hire" class="hvr-forward"><img src="images/managed-services.png" height="20px">&nbsp;Hire Managed Services Specialists</a></li>
+                                        <li class="menu-first"><a href="blockchain.html#hire" class="hvr-forward"><img src="images/blockchain.png" height="20px">&nbsp;Hire Blockchain Developer</a></li>
+                                        <li class="menu-first"><a href="nft.html#hire" class="hvr-forward"><img src="images/nft.png" height="20px">&nbsp;Hire NFT Developer</a></li>
+                              <div class="ocean">
+                                <div class="wave nav_wave"></div>
+                                <div class="wave nav_wave"></div>
+                              </div>
+                          </div>
+                      </li>
+         
+            <li><a href="about-us.html" class="hvr-grow">About Us</a></li>
+  
+            <li class="dropdown">
+              <a href="services.html" class="hvr-grow dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+              <div class="dropdown-menu mega-menu">
+                      <div class="row">
+                              
+                                  <div class="menus-grid services-menu">
+                                      <span class="icon-webdesign menu-icons"></span>
+                                      <ul>
+                                        <li class="menu-first"><a href="outsourcing-web-app-development.html" class="hvr-forward"><img src="images/web.png" height="20px">&nbsp;Website Development</a></li>
+                                        <li class="menu-first"><a href="web-design-outsourcing.html" class="hvr-forward"><img src="images/ui-ux.png" height="20px">&nbsp;UI/UX Design</a></li>
+                                        <li class="menu-first"><a href="mobile-app-development.html" class="hvr-forward"><img src="images/mobile.svg" height="20px">&nbsp;Mobile App Development</a></li>
+                                        <li class="menu-first"><a href="emerging-technologies.html" class="hvr-forward"><img src="images/emerging.png" height="20px">&nbsp;Emerging Technologies</a></li>
+                                        <li class="menu-first"><a href="digital-marketing.html" class="hvr-forward"><img src="images/digital.png" height="20px">&nbsp;Digital Marketing</a></li>
+                                        <li class="menu-first"><a href="internet-of-things.html" class="hvr-forward"><img src="images/IOT1.png" height="20px">&nbsp;Internet of Things</a></li>
+                                        <li class="menu-first"><a href="cross-platform-app-development.html" class="hvr-forward"><img src="images/cross-app.png" height="20px">&nbsp;Cross-Platform App Development</a></li>
+                                        <li class="menu-first"><a href="managed-services.html" class="hvr-forward"><img src="images/managed-services.png" height="20px">&nbsp;Managed Services</a></li>
+                                        <li class="menu-first"><a href="blockchain.html" class="hvr-forward"><img src="images/blockchain.png" height="20px">&nbsp;Blockchain</a></li>
+                                        <li class="menu-first"><a href="nft.html" class="hvr-forward"><img src="images/nft.png" height="20px">&nbsp;NFT</a></li>
+                                   
+                              <div class="ocean">
+                                <div class="wave nav_wave"></div>
+                                <div class="wave nav_wave"></div>
+                              </div>
+                          </div>
+                      </li>
+  
+                        <li><a href="technologies.html" class="hvr-grow">Technologies</a></li>
+                        <li><a href="portfolio.html" class="hvr-grow">Portfolio</a></li>
+  
+                        <li class="dropdown">
+                          <a href="industries.html" class="hvr-grow dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Industries <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                          <div class="dropdown-menu mega-menu">
+                                  <div class="row">
+                                          
+                                              <div class="menus-grid services-menu">
+                                                  <span class="icon-webdesign menu-icons"></span>
+                                                  <ul>
+                                                    <li class="menu-first"><a href="healthcare-software-development.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Healthcare & Life Sciences</a></li>
+                                                    <li class="menu-first"><a href="telecom-software-development.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Telecommunications</a></li>
+                                                    <li class="menu-first"><a href="enterprise-software-development.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Enterprise</a></li>
+                                                    <li class="menu-first"><a href="finance-software-development.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Finance</a></li>
+                                                    <li class="menu-first"><a class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Automotive</a></li>
+                                                    <li class="menu-first"><a href="government-it-solutions.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Government</a></li>
+                                                    <li class="menu-first"><a href="banking-software-development-services.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Banking</a></li>
+                                                    <li class="menu-first"><a href="entertainment-and-media-solutions.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Media & Entertainment</a></li>
+                                                    <li class="menu-first"><a href="logistics-transportation-software-development.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Logistics & Transportation</a></li>
+                                                    <li class="menu-first"><a href="insurance-software-development.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Insurance</a></li>
+                                                    <li class="menu-first"><a class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Construction & Real Estate</a></li>
+                                                    <li class="menu-first"><a href="marketing-software-development.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Marketing & Advertising</a></li>
+                                                    <li class="menu-first"><a href="ecommerce-development-services.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;eCommerce & Retail</a></li>
+                                                    <li class="menu-first"><a class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Energy & Utilities</a></li>
+                                                    <li class="menu-first"><a href="manufacturing-software-development.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Manufacturing</a></li>
+                                                    <li class="menu-first"><a href="elearning-software-development.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Education</a></li>
+                                                    <li class="menu-first"><a href="agriculture-software-development.html" class="hvr-forward"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp; Agriculture </a></li>
+                                                               
+                                          <div class="ocean">
+                                            <div class="wave nav_wave"></div>
+                                            <div class="wave nav_wave"></div>
+                                          </div>
+                                      </div>
+                          </li>
+              
+  
+                        
+  
+                        <li><a href="contact-us.html" class="hvr-grow">Contact Us</a></li>
+  
+            </li>
+        </ul>
+    </div>
+    <!-- <ul class="social-icon">
+      <li>
+                                
+                              
+                                <a class="" href="https://www.facebook.com/brainstartech"><i class="fa fa-facebook-f"></i></a>
+                          
+                               
+                                <a class="" href="https://twitter.com/BrainStarTech"><i class="fa fa-twitter"></i></a>
+                          
+                               
+                                <a class="" href="https://www.instagram.com/brainstartechnologies"><i class="fa fa-instagram"></i></a>
+                          
+                              
+                                <a href="https://www.linkedin.com/company/brain-star-technologies/"><i><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></i></a>
+                          
+                                <a href="https://wa.me/+917986324471"><i><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg></i></a>
+        
+                              
+                            </li>
+                  </ul> -->
+    <div class="menu-icon hvr-grow">&#9776;</div>
+  </nav>
+
+
+
+    <div class="breadcrumb-area">
+      <div class="container">
+        <div class="title">
+          <h1>Blog Details</h1>
+        </div>
+        
+      </div>
+    </div>
+    <div class="blog-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <main id="primary" class="site-main">
+    
+                            
+                        <article id="post-307" class="post-307 post type-post status-publish format-standard has-post-thumbnail hentry category-web-design tag-business tag-consulting tag-corporate">
+    
+                            <div class="blog-thumb" data-aos="fade-down" style="background-image: url(images/dm.png);"></div>
+        
+                            <div class="blog-content">
+                                <div class="entry-header">
+    
+                                    <h2 class="entry-title"> The Evolution of Digital Marketing: Navigating the Technological Landscape</h2>
+                                </div>
+    
+                            <div class="post-info">
+                                <div class="author-img">
+                                    <a href="/">
+                                    <img alt="author" src="images/sumit-sir.jpg" class="avatar avatar-55 photo media-object img-circle" height="55" width="55" loading="lazy" decoding="async">				</a>
+                                </div>
+                                <div class="post-meta">
+                                    <div class="author-name">
+                                        <h5>Sumit Kumar</h5>
+                                    </div>
+                                <div class="entry-meta">
+                                    <div class="meta-views">
+                                        <i class="fa fa-eye"></i>
+                                        <span>114 views</span>
+                                    </div>
+                                    <div class="meta-comment">
+                                        <i class="fa fa-comments-o"></i>
+                                        <a class="meta_comments" href="/">0 Comments</a>
+                                    </div>
+                                    <div class="meta-date">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>August 20, 2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="entry-content">
+                
+                            <p>In the ever-evolving realm of the Information Technology (IT) field, digital marketing has emerged as a powerful tool that transcends traditional advertising methods. As technology continues to reshape consumer behavior, businesses find themselves adapting their strategies to stay relevant and impactful. Tom Fishburne's insightful quote reminds us that effective digital marketing seamlessly integrates into the consumer experience, offering value rather than intrusion.</p>
+    
+    
+    
+                            <p>Digital marketing leverages the vast online landscape to connect businesses with their target audience. From search engine optimization (SEO) to social media campaigns, the array of tools available is staggering. With the advent of big data analytics and artificial intelligence, digital marketers are armed with invaluable insights, enabling hyper-targeted campaigns that resonate with consumers on a personal level.</p>
+    
+    
+    
+                           <!-- <h3 class="block-heading">Where does it come from?</h3>-->
+    
+    
+    
+                            <p>One cannot discuss digital marketing without acknowledging the pivotal role of social media. Platforms like Facebook, Instagram, and Twitter have become digital marketplaces, where brands engage directly with customers. This interactive approach not only builds trust but also garners instant feedback, aiding in the refinement of marketing strategies.</p>
+    
+    
+    
+                            <figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex">
+                                <figure class="wp-block-image size-full">
+                                    <img decoding="async" style="object-fit: contain;" width="600" height="419" data-id="309" src="images/dm-blog2.png" alt="" class="wp-image-309" data-aos="fade-left">
+                                </figure>
+    
+    
+    
+                                <figure class="wp-block-image size-full">
+                                    <img decoding="async" loading="lazy" width="600" height="419" data-id="310" src="images/dm-blog1.png" alt="" class="wp-image-310" data-aos="fade-right"></figure>
+                            </figure>
+    
+    
+    
+                            <p>Despite its undeniable potential, digital marketing poses challenges. The rapid pace of technological change demands perpetual adaptation. The need for creative, compelling content prevails as competition for online attention escalates. Balancing data-driven strategies with a human touch remains an art form that separates successful campaigns from forgettable ones.</p>
+    
+    
+    
+                            <blockquote class="wp-block-quote">
+                                <p>The best marketing doesn't feel like marketing.</p>
+                                <cite> - Tom Fishburne</cite>
+                            </blockquote>
+    
+    
+    
+                            <p>In this age of information, digital marketing stands as a testament to the IT field's transformative power. The intersection of technology and marketing has birthed a dynamic landscape, where innovation thrives, and brands hold the opportunity to redefine their relationship with consumers. As we navigate this digital frontier, let us remember that the essence of remarkable marketing lies in its ability to resonate with authenticity and value.</p>
+                            <div class="entry-footer">
+                              <div class="row">
+                        
+                                <div class="col-lg-6">
+                                  <div class="social-share">
+                                    <h5>Share Now: </h5>
+                                    <ul>
+                                      <li><a href="#" class="hvr-bob"><i class="fa fa-facebook"></i></a></li>
+                                      <li><a href="#" class="hvr-bob"><i class="fa fa-twitter"></i></a></li>
+                                      <li><a href="#" class="hvr-bob"><i class="fa fa-pinterest"></i></a></li>
+                                      <li><a href="#" class="hvr-bob"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                        </div>
+    
+                    </div>
+    
+                </article>
+    
+                <nav class="navigation post-navigation" aria-label="Posts">
+                    
+                        <div class="nav-links">
+                          <div class="nav-prev hvr-backward">
+                            <a href="blog-page-6.html" rel="next"><i class="fa fa-angle-double-left"></i><span class="nav-subtitle">Previous Post</span></a>			
+                          </div>
+                            <div class="nav-next hvr-forward">
+                                <a href="blog-page-8.html" rel="next"><span class="nav-subtitle">Next Post</span><i class="fa fa-angle-double-right"></i></a>			
+                            </div>
+                        </div>
+                </nav>
+                <div class="col-md-9 col-md-offset-1 contact_section_right" id="Request_Quote_form">
+                    <div class="contact_right_wrapper">
+                      <div class="col-md-12 common_tittle text-center">
+                        <h2
+                          class="text-uppercase wow fadeInDown"
+                         
+                        >
+                          Leave <br>
+                          <span
+                            class="wow fadeInDown"
+                            
+                            >Comment</span
+                          >
+                        </h2>
+                      </div>
+                      <form
+                        class="w-100"
+                        id="contactform"
+                        action="mailto:kumarsumit1026@gmail.com"
+                        method="post"
+                        novalidate="novalidate"
+                       
+                      >
+                        <input type="hidden" name="_token" value="">
+                        <input type="hidden" id="redirecturl" name="redirecturl" value="">
+                        <div class="row">
+                          <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                              <input type="text" id="name" name="name" class="form-control" placeholder="Name" required="">
+                            </div>
+                          </div>
+                          
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <input
+                                type="text"
+                                id="email"
+                                name="email"
+                                class="form-control"
+                                placeholder="Email Address"
+                                required=""
+                              >
+                            </div>
+                          </div>
+                          
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="row">
+                          <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                              <textarea class="form-control" name="message" placeholder="Comment"></textarea>
+                            </div>
+                          </div>
+                          
+                          <div class="clearfix"></div>
+                          <div class="col-md-12 col-sm-12 col-xs-12"></div>
+                          <div class="clearfix"></div>
+                          <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group intership-form">
+                              <div class="loading" style="display: none;"></div>
+                              <button type="submit" name="submit" class="btn btn-talk gradient-btn hvr-grow" id="contactformSubmit">
+                                Submit Comment
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                      </form>
+                    </div>
+                  </div>
+            </main>
+        </div>
+        <div class="col-lg-4 sticky-top">
+                        
+            <aside id="secondary" class="widget-area">
+                
+                <section id="block-1" class="widget widget_block">
+                    <div class="block-group is-layout-flow">
+                        <div class="block-group__inner-container">
+                            <h2 class="block-heading">Recent Posts</h2>
+                            <ul class="wp-block-latest-posts__list wp-block-latest-posts">
+                              <li class="hvr-bounce-in"><a class="wp-block-latest-posts__post-title" href="blog-page-2.html">Easy Innovation Using Best Software Company</a></li>
+                              <li class="hvr-bounce-in"><a class="wp-block-latest-posts__post-title" href="blog-page-3.html">The Power of Artificial Intelligence in Transforming Modern Business</a></li>
+                              <li class="hvr-bounce-in"><a class="wp-block-latest-posts__post-title" href="blog-page-4.html">The Growing Significance of Cybersecurity in Modern Enterprises</a></li>
+                              <li class="hvr-bounce-in"><a class="wp-block-latest-posts__post-title" href="blog-page-1.html">The Evolving Landscape of Cloud Computing: Navigating the Future</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                
+            </aside>
+                <!-- #secondary -->
+        </div>
+        </div>
+        </div>
+    </div>
+
+
+    <section  style="background: linear-gradient(to left, #6837d970, #53ccff); ">
+      <div class="teams-section-1">
+        <h1>Top Blogs</h1>
+      </div>
+      <div class="top-blog-cards-wrapper">
+      <div class="card-grid-space">
+        <a class="blog-card" href="blog-page-1.html" style="--bg-img: url(images/cloud-computing.png)">
+          <div>
+            <h1>Cloud Computing</h1>
+            <p>The cloud has brought unparalleled scalability and flexibility to businesses of…</p>
+            <div class="date">July 26, 2023</div>
+            <div class="tags">
+              <div class="tag">Cloud Computing</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card-grid-space">
+        <a class="blog-card" href="blog-page-2.html" style="--bg-img: url('images/software-blog.jpg')">
+          <div>
+            <h1>Easy Innovation</h1>
+            <p>In the realm of technology, innovation is the driving force that propels businesses forward…</p>
+            <div class="date">July 30, 2023</div>
+            <div class="tags">
+              <div class="tag">Tech</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card-grid-space">
+        <a class="blog-card" href="blog-page-3.html" style="--bg-img: url(images/ai-blog-2.png)">
+          <div>
+            <h1>Power of Artificial Intelligence</h1>
+            <p>In today's rapidly evolving technological landscape, the integration of Artificial Intelligence…</p>
+            <div class="date">August 05, 2023</div>
+            <div class="tags">
+              <div class="tag">AI</div>
+            </div>
+          </div>
+        </a>
+      </div> 
+    </div>
+  </section>
+
+
+    <section class="section contact_section" id="contact wave" style="">
+   
+      <div class="container-fluid">
+        <div class="row" style="z-index: 1001;">
+          <div class="col-md-6 contact_section_left">
+            <div class="testimonials-section">
+              <div class="row">
+                <div class="col-md-6 col-sm-6">
+                  <div
+                    class="testimonials-inner wow flipInX"
+                   
+                  >
+                    <div class="testi-img">
+                     <img
+                        src="images/mike.jpg"
+                        alt="Mike"
+                        class="img-responsive"
+                      >
+                    </div>
+                    <h3 class="name-position">
+                      Mike</h3>
+                    <p>
+                      Thanks Brain Star Technologies for great support on our project. They not only showed their commitment and hard work in our project, but also helped us take care of some points that got missed by us and did not belong to their scope.
+                    </p>
+                  </div>
+    
+                  <div
+                    class="testimonials-inner wow flipInX"
+                   
+                  >
+                    <div class="testi-img">
+                      <img
+                        src="images/casi.jpg"
+                        alt="Casi"
+                        class="img-responsive"
+                      >
+                    </div>
+                    <h3 class="name-position">
+                      Casi
+    
+                    </h3>
+                    <p>
+                      Brain Star Technologies has a solid technology team and on time delivery. Very happy to be associated with them Great work!!! The team was solid, efficient and knowledgeable. They did an amazing job on my very challenging app. I will be using them again. Thank you for doing such a great job!
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 mt-30">
+                  <div
+                    class="testimonials-inner wow flipInX"
+                    
+                  >
+                    <div class="testi-img">
+                      <img
+                        src="images/suzanne.jpg"
+                        alt="Suzzane"
+                        class="img-responsive"
+                      >
+                    </div>
+                    <h3 class="name-position">
+                      Suzzane
+                      
+                    </h3>
+                    <p>
+                      Brain Star Technologies is driven by a passion to create and deliver on new ideas and that is reflected in their work. It is a team that strives for excellence and is open to experimenting and creating new trends in the business. Our work relationship has been productive and we have collectively been able to achieve great results.
+                    </p>
+                  </div>
+    
+                  <div
+                    class="testimonials-inner wow flipInX"
+                   
+                  >
+                    <div class="testi-img">
+                      <img
+                        src="images/daisy.jpg"
+                        alt="Daisy"
+                        class="img-responsive"
+                      >
+                    </div>
+                    <h3 class="name-position">
+                      Daisy
+                    </h3>
+                    <p>
+                      Brain Star Technologies Solutions has done a great job taking our company’s idea and developing a website as per our niche specifications. The team is technically strong and creative. I will not hesitate to recommend them.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 text-right">
+                  <a href="" class="btn btn-view gradient-btn hvr-forward"
+                    >View More
+                    <img
+                      src="images/arrow-right.png"
+                      alt="Arrow Right"
+                      class="img-responsive"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-md-offset-1 contact_section_right" id="Request_Quote_form">
+            <div class="contact_right_wrapper">
+              <div class="col-md-12 common_tittle text-center">
+                <h2
+                  class="text-uppercase wow fadeInDown"
+                 
+                >
+                  Let's Talk <br>
+                  <span
+                    class="wow fadeInDown"
+                    
+                    >About Project</span
+                  >
+                </h2>
+              </div>
+              <form
+                class="w-100"
+                id="contactform"
+                action="mailto:kumarsumit1026@gmail.com"
+                method="post"
+                novalidate="novalidate"
+               
+              >
+                <input type="hidden" name="_token" value="">
+                <input type="hidden" id="redirecturl" name="redirecturl" value="">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <input type="text" id="name" name="name" class="form-control" placeholder="Name" required="">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        class="form-control"
+                        placeholder="Email Address"
+                        required=""
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class=" col-md-6 col-sm-6 col-xs-12 ">
+                    <div class="form-group">
+                      <input type="text" id="contactno" name="contactno" class="form-control" placeholder="Mobile">
+                    </div>
+                  </div>
+                  <div class=" col-md-6 col-sm-6 col-xs-12 ">
+                    <div class="form-group">
+                      <input type="number" name="projectbudget" class="form-control" placeholder="Project Budget">
+                    </div>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" placeholder="Project Summary"></textarea>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="form-group">
+                      <input type="file" class="form-control" name="file_upload">
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="col-md-12 col-sm-12 col-xs-12"></div>
+                  <div class="clearfix"></div>
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="form-group intership-form">
+                      <div class="loading" style="display: none;"></div>
+                      <button type="submit" name="submit" class="btn btn-talk gradient-btn hvr-grow" id="contactformSubmit">
+                        Let's Talk
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </section>
+    <section style="position: relative;overflow: hidden;">
+      <div class="bottom-curve">
+        <div class="ocean">
+          <div class="wave"></div>
+          <div class="wave"></div>
+        </div>
+      </div>
+    </section>
+    
+
+
+    <section class="section footer_section">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div class="footer_upper w-100">
+        
+    
+        <div class="container-fluid" id="contact-footer">
+          <div class="row">
+            
+            <div class="col-md-3 footer_section_left aos-init aos-animate" data-aos="zoom-in">
+              <p>Brain Star Technologies is a trusted technology leader in web, software, and mobile app development for various industries. We are here to give you something unique curated with all the expertise we have to help you establish a solid name in the market for being the top web development company.</p>
+              <p>Our mission is to help you grow your business by overcoming technological challenges. From scratch to finish, we ensure you get constant support.</p>
+              <div class="col-md-2">
+                    
+                      <!-- Facebook -->
+                      <a class="btn1 m-1 hvr-bob" href="https://www.facebook.com/brainstartech"><i class="fa fa-facebook-f"></i></a>
+                
+                      <!-- Twitter -->
+                      <a class="btn1 m-1 hvr-bob" href="https://twitter.com/BrainStarTech"><i class="fa fa-twitter"></i></a>
+                
+                     
+                
+                      <!-- Instagram -->
+                      <a class="btn1 m-1 hvr-bob" href="https://www.instagram.com/brainstartechnologies"><i class="fa fa-instagram"></i></a>
+                
+                      <!-- Linkedin -->
+                      <a class="btn1 m-1 hvr-bob" href="https://www.linkedin.com/company/brain-star-technologies"><i class="fa fa-linkedin"></i></a>
+                      <!-- watsapp -->
+                      <a class="btn1 m-1 hvr-bob" href="https://wa.me/+917986324471"><i class="fa fa-whatsapp"></i></a>
+                    
+                 </div>              
+</div>
+    
+<div class="col-md-8 col-md-offset-1 footer_quickLinks aos-init aos-animate" data-aos="zoom-in">
+<div class="row">
+  <div class="col-md-5">
+    <ul class="services_provided w-100">
+        <li><a href="about-us.html" class="hvr-grow">About Us</a></li>
+        <li><a href="services.html" class="hvr-grow">Services</a></li>
+        <li><a href="technologies.html" class="hvr-grow">Technologies</a></li>
+        <li><a href="industries.html" class="hvr-grow">Industries</a></li>
+        <li><a href="portfolio.html" class="hvr-grow">Portfolio</a></li>
+        <li><a href="blog-page.html" class="hvr-grow">Blog</a></li>
+        <li><a href="career.html" class="hvr-grow">Careers</a></li>
+        <li><a href="contact-us.html" class="hvr-grow">Contact Us</a></li>
+        
+    </ul>
+  </div>
+
+  
+
+  <div class="col-md-5">
+    <ul class="contact_info_column aos-init aos-animate" data-aos="zoom-in">
+      <li>
+        <span><img src="images/footer-phone.png" alt="contact-us-icon" class="img-responsive"></span>
+        <p>
+          <a href="tel:+917986324471">+917986324471</a>
+        </p>
+        <p>Mon-Fri 9 am to 6 pm</p>
+      </li>
+      <li>
+        <span><img src="images/footer-email.png" alt="email-icon" class="img-responsive">
+        </span>
+        <p>
+          <a href="mailto:info@brainstartechnologies.com">info@brainstartechnologies.com</a>
+        </p>
+        <p>Online Support</p>
+      </li>
+<!-- <li>
+<div class="newsletter">
+    <h5 class="text-uppercase mb-4 font-weight-bold">NEWSLETTER</h5>
+    <div class="form col-md-7 col-lg-8">
+        <form action="mailto:kumarsumit1026@gmail.com">
+            <input type="text" placeholder="Email...">
+            <button>Subscribe</button>
+        </form>
+    </div>
+</div>
+</li>                   -->
+
+    </ul>
+  </div>
+
+
+</div>
+</div>
+            <div class="clearfix"></div>
+    
+            <div class="company-locations">
+              <div class="col-md-2">
+                <ul class="company-loc">
+                
+                  <li class="hvr-pulse-shrink"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  >
+                    <span class="icon">
+                      <img
+                        src="images/flag-india.jpg"
+                        alt="footer-location-icon"
+                        class="img-responsive"
+                      >
+                    </span>
+                    <p>
+                      <strong>INDIA</strong><br>
+                      
+                    </p>
+                  </li>
+                </ul>
+              </div>                              
+    
+              <div class="col-md-2">
+                <ul class="company-loc">
+                  <li class="hvr-pulse-shrink"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  >
+                    <span class="icon">
+                      <img
+                        src="images/flag-canada.jpg"
+                        alt="footer-location-icon"
+                        class="img-responsive"
+                      >
+                    </span>
+                    <p>
+                      <strong>CANADA</strong><br>
+                      
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              
+              <div class="col-md-2">
+                <ul class="company-loc">
+                
+                  <li class="hvr-pulse-shrink"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  >
+                    <span class="icon">
+                      <img
+                        src="images/flag-usa1.png"
+                        alt="footer-location-icon"
+                        class="img-responsive"
+                      >
+                    </span>
+                    <p>
+                      <strong>U.S.A.</strong><br>
+                      
+                    </p>
+                  </li>
+                </ul>
+              </div> 
+              <div class="col-md-2">
+                <ul class="company-loc">
+                
+                  <li class="hvr-pulse-shrink"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  >
+                    <span class="icon">
+                      <img
+                        src="images/flag-australia1.png"
+                        alt="footer-location-icon"
+                        class="img-responsive"
+                      >
+                    </span>
+                    <p>
+                      <strong>AUSTRALIA</strong><br>
+                      
+                    </p>
+                  </li>
+                </ul>
+              </div> 
+              <div class="col-md-2">
+                <ul class="company-loc">
+                
+                  <li class="hvr-pulse-shrink"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  >
+                    <span class="icon">
+                      <img
+                        src="images/uk-flag.png"
+                        alt="footer-location-icon"
+                        class="img-responsive"
+                      >
+                    </span>
+                    <p>
+                      <strong>UK</strong><br>
+                      
+                    </p>
+                  </li>
+                </ul>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_bottom w-100">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 copyright">
+              <p>
+                  Brain Star Technologies &copy; 2024
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <button class="scroll-btn" onclick="scrollToTop()">
+    <div class="arrow-up"></div>
+  </button>
+
+ 
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+
+
+</html>
